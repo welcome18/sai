@@ -1,0 +1,45 @@
+
+
+What is Ansible?
+> Change Management
+> Provisioning
+> Automation
+> Orchestration
+
+why Ansible?
+
+It's Clean!
+ No agents
+  No database
+   No residual software
+    No complex upgrades
+     
+     Security?
+
+      Uses SSH
+       Root / Sudo usage
+        Encrypted vault
+	 No PKI Needed
+	  
+	  Extendable?
+	   
+	    Easy to extend
+	       URL / Restful Calls
+	          Shell Commands
+		     Scripts
+		        Ansible-Galaxy
+
+			Ansible Components?
+			Inventory  > It is a text file describes your servers and systems here you can define your host level 
+			variables your groups and roles
+
+			Playbook > A single or set of tasks using modules, executed 
+			on a defined set of hosts.
+
+			Modules > A programmed unit of work to be done.
+			Ansible Config > u can change default config
+			Python > Host Variables( Use Variables defined in Inventory per host or group)
+			       > Facts(Use data gathered from the remote managed host)
+			       	   > Dynamic Variables(Use data gathered by tasks or created at runtime)
+				   ssh 
+
